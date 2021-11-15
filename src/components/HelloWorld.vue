@@ -1,33 +1,117 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
   </div>
+  <div id="home"></div>
+    <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(10, 154, 250);">
+        <div class="container">
+          <a class="navbar-brand" href="#">Daniel Johan</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#webinar">Webinar & Workshop</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <section  class="jumbotron text-center pt-5">
+        <img src="img/MyPict1.jpeg" alt="Daniel Johan" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4 fw-bolder">Daniel Johan</h1>
+        <p class="lead fw-bold">Mahasiswa Universitas MDP</p>
+    </section>
+    <section id="about" class="bg-primary">
+          <div class="container">
+              <div class="row text-center mb-3">
+                <div class="col">
+                  <h2>About Me</h2>
+                </div>
+           </div>
+          <div class="row justify-content-center fs-5 text-center">
+              <div class="col-md-4 text-white">
+                <h3>Pendidikan :</h3>
+                <p>SD Xaverius 8 Plaju</p>
+                <p>SMP Xaverius 5 Plaju</p>
+                <p>SMA Methodist 2 Palembang</p>
+              </div>
+              <div class="col-md-4 text-white">
+                <h3>Hobi :</h3>
+                <p>Playing Games Mobile</p>
+                <p>Badminton</p>
+              </div>
+              </div>
+          </div>
+    </section>
+    <section id="webinar">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Certified</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="img/webinar/1.jpg" class="card-img-top" alt="Webinar 1">
+                <div class="card-body">
+                  <p class="card-text">Anak Informatika Gak Bisa Ngoding?</p>
+                </div>
+              </div>
+          </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/webinar/2.jpg" class="card-img-top" alt="Webinar 2">
+                    <div class="card-body">
+                      <p class="card-text">Workshop Penggunaan Mendeley</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/webinar/3.jpg" class="card-img-top" alt="Webinar 3">
+                    <div class="card-body">
+                      <p class="card-text">Menjadi Manusia Paket Komplit</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <section id="contact" class="bg-light">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2 class="text-primary">Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                          </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer class="text-white text-center " style="background-color: rgb(10, 154, 250);">
+        <p>Created by <a href="https://www.instagram.com/daniel.johan12/" class="text-white fw-bold">Daniel Johan</a></p>
+    </footer>
 </template>
 
 <script>
@@ -38,21 +122,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
