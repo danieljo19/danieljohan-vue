@@ -26,7 +26,7 @@
     <section id="about" style="background-color: rgb(10, 154, 250);">
           <div class="container">
               <div class="row text-center mb-3">
-                <div class="col">
+                <div class="col text-white">
                   <h2>About Me</h2>
                 </div>
            </div>
