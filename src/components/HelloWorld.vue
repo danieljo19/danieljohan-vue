@@ -20,7 +20,7 @@
       </nav>
     <section  class="jumbotron text-center pt-5">
         <img src="img/MyPict1.jpeg" alt="Daniel Johan" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="display-4 fw-bolder">Daniel Johan</h1>
+        <h1 class="display-4 fw-bolder">Daniel Johan </h1>
         <p class="lead fw-bold">Mahasiswa Universitas MDP</p>
     </section>
     <section id="about" class="bg-primary">
