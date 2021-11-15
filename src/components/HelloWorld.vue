@@ -23,7 +23,7 @@
         <h1 class="display-4 fw-bolder">Daniel Johan</h1>
         <p class="lead fw-bold">Mahasiswa Universitas MDP</p>
     </section>
-    <section id="about" class="bg-primary">
+    <section id="about" style="background-color: rgb(10, 154, 250);">
           <div class="container">
               <div class="row text-center mb-3">
                 <div class="col">
@@ -80,7 +80,7 @@
           </div>
       </div>
       </section>
-      <section id="contact" class="bg-light">
+      <section id="contact" style="background-color: rgb(10, 154, 250);">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col">
@@ -102,15 +102,14 @@
                             <label for="pesan" class="form-label">Pesan</label>
                             <textarea class="form-control" id="pesan" rows="3"></textarea>
                           </div>
-                        <button type="submit" class="btn btn-primary">Kirim</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
                 </div>
             </div>
         </div>
     </section>
-    <br>
-    <footer class="text-white text-center " style="background-color: rgb(10, 154, 250);">
-        <p>Created by <a href="https://www.instagram.com/daniel.johan12/" class="text-white fw-bold">Daniel Johan</a></p>
+    <footer class="text-white text-center p-2 bg-info bg-gradient">
+        <p class="mt-1">Created by <a href="https://www.instagram.com/daniel.johan12/" class="text-white fw-bold">Daniel Johan</a></p>
     </footer>
 </template>
 
