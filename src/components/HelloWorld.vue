@@ -56,7 +56,7 @@
             <div class="card">
                 <img src="img/webinar/1.jpg" class="card-img-top" alt="Webinar 1">
                 <div class="card-body">
-                  <p class="card-text">Anak Informatika Gak Bisa Ngoding?</p>
+                  <p class="card-text text-center">Anak Informatika Gak Bisa Ngoding?</p>
                 </div>
               </div>
           </div>
@@ -64,7 +64,7 @@
                 <div class="card">
                     <img src="img/webinar/2.jpg" class="card-img-top" alt="Webinar 2">
                     <div class="card-body">
-                      <p class="card-text">Workshop Penggunaan Mendeley</p>
+                      <p class="card-text text-center">Workshop Penggunaan Mendeley</p>
                     </div>
                   </div>
               </div>
@@ -72,7 +72,7 @@
                 <div class="card">
                     <img src="img/webinar/3.jpg" class="card-img-top" alt="Webinar 3">
                     <div class="card-body">
-                      <p class="card-text">Menjadi Manusia Paket Komplit</p>
+                      <p class="card-text text-center">Menjadi Manusia Paket Komplit</p>
                     </div>
                   </div>
               </div>
