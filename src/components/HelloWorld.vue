@@ -1,8 +1,7 @@
 <template>
   <div class="hello">
   </div>
-  <div id="home"></div>
-    <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(10, 154, 250);">
+    <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top pb-2" style="background-color: rgb(10, 154, 250);">
         <div class="container">
           <a class="navbar-brand" href="#">Daniel Johan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
