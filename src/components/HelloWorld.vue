@@ -81,9 +81,9 @@
       </section>
       <section id="contact" style="background-color: rgb(10, 154, 250);">
         <div class="container">
-            <div class="row text-center mb-3">
+            <div class="row text-center mb-2">
                 <div class="col">
-                    <h2 class="text-primary">Contact Me</h2>
+                    <h2 class="text-dark">Contact Me</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -101,7 +101,7 @@
                             <label for="pesan" class="form-label">Pesan</label>
                             <textarea class="form-control" id="pesan" rows="3"></textarea>
                           </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
                       </form>
                 </div>
             </div>
