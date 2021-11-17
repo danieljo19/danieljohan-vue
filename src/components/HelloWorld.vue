@@ -90,26 +90,26 @@
                 <div class="col-md-3">
                     <form>
                         <div class="mb-3">
-                          <p><img width="30" src="img/icon/envelope.svg" alt="email"> danieljohan37@gmail.com</p>
+                          <p class="text-light"><img width="30" src="img/icon/envelope.svg" alt="email"> danieljohan37@gmail.com</p>
                         </div>
                         <div class="mb-3">
-                          <p><img width="30" src="img/icon/instagram.svg" alt="instagram"> daniel.johan12</p>
+                          <p class="text-light"><img width="30" src="img/icon/instagram.svg" alt="instagram"> daniel.johan12</p>
                         </div>
                         <div class="mb-3">
-                          <p><img width="30" src="img/icon/twitter.svg" alt="twitter"> daniel_johan12</p>
+                          <p class="text-light"><img width="30" src="img/icon/twitter.svg" alt="twitter"> daniel_johan12</p>
                         </div>
                       </form>
                 </div>
                 <div class="col-md-2">
                     <form>
                         <div class="mb-3">
-                          <p><img width="30" src="img/icon/discord.svg" alt="discord"> DanielJohan#8684</p>
+                          <p class="text-light"><img width="30" src="img/icon/discord.svg" alt="discord"> DanielJohan#8684</p>
                         </div>
                         <div class="mb-3">
-                          <p><img width="30" src="img/icon/line.svg" alt="line"> danieljohan10</p>
+                          <p class="text-light"><img width="30" src="img/icon/line.svg" alt="line"> danieljohan10</p>
                         </div>
                         <div class="mb-3">
-                          <p><img width="30" src="img/icon/telegram.svg" alt="telegram"> @danieljohan</p>
+                          <p class="text-light"><img width="30" src="img/icon/telegram.svg" alt="telegram"> @danieljohan</p>
                         </div>
                       </form>
                 </div>
