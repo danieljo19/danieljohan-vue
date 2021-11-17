@@ -20,7 +20,7 @@
     <section  class="jumbotron text-center pt-5">
         <img src="img/MyPict1.jpeg" alt="Daniel Johan" width="200" class="rounded-circle img-thumbnail">
         <h1 class="display-4 fw-bolder">Daniel Johan</h1>
-        <p class="lead fw-bold">Mahasiswa Universitas MDP</p>
+        <p class="lead fw-bold fst-italic text-success">Palembang, 19 September 2001</p>
     </section>
     <section id="about" style="background-color: rgb(10, 154, 250);">
           <div class="container">
