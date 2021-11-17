@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
   </div>
-    <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top pb-2" style="background-color: rgb(10, 154, 250);">
+    <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top pt-1" style="background-color: rgb(10, 154, 250);">
         <div class="container">
           <a class="navbar-brand" href="#">Daniel Johan</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +28,26 @@
                 <div class="col text-white">
                   <h2>About Me</h2>
                 </div>
-           </div>
-          <div class="row justify-content-center fs-5 text-center">
-              <div class="col-md-4 text-white">
-                <h3>Pendidikan :</h3>
-                <p>SD Xaverius 8 Plaju</p>
-                <p>SMP Xaverius 5 Plaju</p>
-                <p>SMA Methodist 2 Palembang</p>
               </div>
-              <div class="col-md-4 text-white">
-                <h3>Hobi :</h3>
-                <p>Playing Games Mobile</p>
-                <p>Badminton</p>
+              <div class="row justify-content-center fs-5 bg-gradient">
+                  <div class="col-md-12 text-black">
+                    <p>Saya seorang Mahasiswa di salah satu Universitas terbaik di Palembang yang bernama Universitas Multi Data Palembang dengan jurusan Teknik Informatika.
+                      Saat ini saya masih Semester 3. Saya sangat senang untuk belajar hal baru dan menemui tantangan lain. Saya juga mampu bekerja secara kelompok maupun individu dengan baik.
+                    </p>
+                  </div>
               </div>
+              <div class="row justify-content-center fs-5 text-center">
+                  <div class="col-md-4 text-white">
+                    <h3>Pendidikan :</h3>
+                      <p>SD Xaverius 8 Plaju</p>
+                      <p>SMP Xaverius 5 Plaju</p>
+                      <p>SMA Methodist 2 Palembang</p>
+                  </div>
+                  <div class="col-md-4 text-white">
+                    <h3>Hobi :</h3>
+                    <p>Playing Games Mobile</p>
+                    <p>Badminton</p>
+                  </div>
               </div>
           </div>
     </section>
@@ -87,23 +94,23 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-3">
+                <div class="col-md-3 text-center">
                     <form>
                         <div class="mb-3">
                           <p class="text-light"><img width="30" src="img/icon/envelope.svg" alt="email"> danieljohan37@gmail.com</p>
                         </div>
                         <div class="mb-3">
-                          <p class="text-light"><img width="30" src="img/icon/instagram.svg" alt="instagram"> daniel.johan12</p>
+                          <p class="text-light"><img width="30" src="img/icon/discord.svg" alt="discord"> DanielJohan#8684</p>
                         </div>
                         <div class="mb-3">
-                          <p class="text-light"><img width="30" src="img/icon/twitter.svg" alt="twitter"> daniel_johan12</p>
+                          <p class="text-light"><img width="30" src="img/icon/instagram.svg" alt="instagram"> daniel.johan12</p>
                         </div>
                       </form>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 text-center">
                     <form>
                         <div class="mb-3">
-                          <p class="text-light"><img width="30" src="img/icon/discord.svg" alt="discord"> DanielJohan#8684</p>
+                          <p class="text-light"><img width="30" src="img/icon/twitter.svg" alt="twitter"> daniel_johan12</p>
                         </div>
                         <div class="mb-3">
                           <p class="text-light"><img width="30" src="img/icon/line.svg" alt="line"> danieljohan10</p>
