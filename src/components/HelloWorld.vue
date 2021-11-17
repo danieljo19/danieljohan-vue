@@ -12,7 +12,7 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
               <a class="nav-link" href="#about">About</a>
               <a class="nav-link" href="#webinar">Webinar & Workshop</a>
-              <a class="nav-link" href="#contact">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Person</a>
             </div>
           </div>
         </div>
@@ -83,25 +83,34 @@
         <div class="container">
             <div class="row text-center mb-2">
                 <div class="col">
-                    <h2 class="text-dark">Contact Me</h2>
+                    <h2 class="text-dark">Contact Person</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <form>
                         <div class="mb-3">
-                          <label for="name" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="name" aria-describedby="name">
+                          <p><img width="30" src="img/icon/envelope.svg" alt="email"> danieljohan37@gmail.com</p>
                         </div>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                          <p><img width="30" src="img/icon/instagram.svg" alt="instagram"> daniel.johan12</p>
                         </div>
                         <div class="mb-3">
-                            <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3"></textarea>
-                          </div>
-                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                          <p><img width="30" src="img/icon/twitter.svg" alt="twitter"> daniel_johan12</p>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-md-2">
+                    <form>
+                        <div class="mb-3">
+                          <p><img width="30" src="img/icon/discord.svg" alt="discord"> DanielJohan#8684</p>
+                        </div>
+                        <div class="mb-3">
+                          <p><img width="30" src="img/icon/line.svg" alt="line"> danieljohan10</p>
+                        </div>
+                        <div class="mb-3">
+                          <p><img width="30" src="img/icon/telegram.svg" alt="telegram"> @danieljohan</p>
+                        </div>
                       </form>
                 </div>
             </div>
