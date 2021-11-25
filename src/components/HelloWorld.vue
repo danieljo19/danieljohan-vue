@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-  </div>
     <nav id="home" class="navbar navbar-expand-lg navbar-dark fixed-top pt-1" style="background-color: rgb(10, 154, 250);">
         <div class="container">
           <a class="navbar-brand" href="#">Daniel Johan</a>
@@ -126,6 +125,7 @@
     <footer class="text-white text-center p-2 bg-info bg-gradient">
         <p class="mt-1">Created by <a href="https://www.instagram.com/daniel.johan12/" class="text-white fw-bold">Daniel Johan</a></p>
     </footer>
+ </div>
 </template>
 
 <script>

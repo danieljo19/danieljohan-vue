@@ -1,0 +1,18 @@
+<template>
+    <div>
+        <layout-main>
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">About Me</h1>
+            </div>
+        </layout-main>
+    </div>
+</template>
+
+<script>
+import LayoutMain from "@/views/LayoutMain"
+export default {
+    components: {
+        LayoutMain
+    }
+}
+</script>
