@@ -30,7 +30,12 @@ const routes = [
         path: '/about',
         name: 'about',
         component: () => import('@/views/about/Main')
-    }
+    },
+    {
+        path: '/users',
+        name: 'users',
+        component: () => import('@/views/users/Main')
+    },
 ];
 
 const router = createRouter({

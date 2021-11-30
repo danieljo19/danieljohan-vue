@@ -19,23 +19,29 @@
                 <div class="position-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                            <span data-feather="home"></span>
-                            Dashboard
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                            <span data-feather="file"></span>
-                            Profile
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                            <span data-feather="shopping-cart"></span>
-                            About
-                            </a>
-                        </li>
+                              <router-link to="/dashboard" class="nav-link active" aria-current="page">
+                              <span data-feather="home"></span>
+                              Dashboard
+                              </router-link>
+                          </li>
+                          <li class="nav-item">
+                              <router-link to="/profile" class="nav-link">
+                              <span data-feather="file"></span>
+                              Profil
+                              </router-link>
+                          </li>
+                          <li class="nav-item">
+                              <router-link to="/about" class="nav-link">
+                              <span data-feather="shopping-cart"></span>
+                              About
+                              </router-link>
+                          </li>
+                          <li class="nav-item">
+                              <router-link to="/users" class="nav-link">
+                              <span data-feather="shopping-cart"></span>
+                              Users
+                              </router-link>
+                          </li>
                     </ul>
                 </div>
             </nav>
